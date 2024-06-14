@@ -103,7 +103,7 @@ public class MappingController {
 		if (statusCode == 200) {
 			ObjectMapper objectMapper = new ObjectMapper();
 			List<PostDTO> value = objectMapper.readValue(response.body(), new TypeReference<List<PostDTO>>() {
-			});
+			});  
 	           httpServletRespose.setContentType("application/octel/stream");	           
 	           String key  = "Content-Disposition"; 
 	           String value1 = "attachment;filename = post.xls";
