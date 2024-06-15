@@ -86,7 +86,22 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			
+<!--			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>com.mappling.App</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>-->
+			
 		</plugins>
 	</build>
+
 
 </project>
